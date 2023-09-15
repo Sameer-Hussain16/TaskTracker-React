@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  text-align: center;
+}
+
+h1 {
+  color: #1B1B32;
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+  margin-top: 60px;
+
+}
+
+.TodoForm {
+  width: 100%;
+}
+
+.todo-input {
+  outline: none;
+  background: none;
+  border: 3px solid #1B1B32;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  width: 300px;
+  color: #34344b;
+}
+
+.todo-input::placeholder {
+  color: #3d3d5a;
+}
+
+.todo-btn {
+  background: #1B1B32;
+  color: #fff;
+  border: 2px solid #1B1B32;
+  padding: 0.55rem;
+  cursor: pointer;
+  
+}
+
+.Todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 3px solid #1B1B32;
+  background: #D0D0D5;
+  color: #1B1B32;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.Todo:hover {
+  background-color: #1B1B32;
+  color: white;
+}
+
+
+.fa-trash {
+  margin-left: 0.75rem;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+ 
